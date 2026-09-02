@@ -1,0 +1,14 @@
+,dtype,missing_count,missing_pct,unique_values
+Id,int64,0,0.0,252000
+Income,int64,0,0.0,41920
+Age,int64,0,0.0,59
+Experience,int64,0,0.0,21
+Married/Single,str,0,0.0,2
+House_Ownership,str,0,0.0,3
+Car_Ownership,str,0,0.0,2
+Profession,str,0,0.0,51
+CITY,str,0,0.0,317
+STATE,str,0,0.0,29
+CURRENT_JOB_YRS,int64,0,0.0,15
+CURRENT_HOUSE_YRS,int64,0,0.0,5
+Risk_Flag,int64,0,0.0,2

@@ -1,0 +1,19 @@
+{
+  "training_shape": [
+    252000,
+    13
+  ],
+  "test_shape": [
+    28000,
+    12
+  ],
+  "training_duplicates": 0,
+  "test_duplicates": 0,
+  "training_missing_cells": 0,
+  "test_missing_cells": 0,
+  "target_counts": {
+    "0": 221004,
+    "1": 30996
+  },
+  "target_rate": 0.123
+}

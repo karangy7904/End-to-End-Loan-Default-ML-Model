@@ -1,0 +1,6 @@
+feature,q1,q3,iqr,lower_bound,upper_bound,outlier_count,outlier_pct
+Income,2503015.0,7477502.0,4974487.0,-4958715.5,14939232.5,0,0.0
+Age,35.0,65.0,30.0,-10.0,110.0,0,0.0
+Experience,5.0,15.0,10.0,-10.0,30.0,0,0.0
+CURRENT_JOB_YRS,3.0,9.0,6.0,-6.0,18.0,0,0.0
+CURRENT_HOUSE_YRS,11.0,13.0,2.0,8.0,16.0,0,0.0

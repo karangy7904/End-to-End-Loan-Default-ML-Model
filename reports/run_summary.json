@@ -1,0 +1,24 @@
+{
+  "dataset": {
+    "training_rows": 252000,
+    "test_rows": 28000,
+    "positive_rows": 30996,
+    "positive_rate": 0.123,
+    "missing_cells": 0,
+    "duplicate_rows": 0
+  },
+  "best_untuned_benchmark": {
+    "model": "Random Forest",
+    "validation_pr_auc": 0.4469882979573305
+  },
+  "final_model": {
+    "model": "Tuned XGBoost",
+    "optimized_threshold": 0.5780094861984253,
+    "accuracy": 0.8854563492063492,
+    "precision": 0.523997296079315,
+    "recall": 0.7502823035973544,
+    "f1": 0.6170480928689884,
+    "roc_auc": 0.8934892150184641,
+    "pr_auc": 0.5426171223664307
+  }
+}

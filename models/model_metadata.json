@@ -1,0 +1,37 @@
+{
+  "target": "Risk_Flag",
+  "id_column": "Id",
+  "optimized_threshold": 0.5780094861984253,
+  "validation_metrics": {
+    "model": "Tuned XGBoost",
+    "accuracy": 0.8854563492063492,
+    "precision": 0.523997296079315,
+    "recall": 0.7502823035973544,
+    "f1": 0.6170480928689884,
+    "roc_auc": 0.8934892150184641,
+    "pr_auc": 0.5426171223664307
+  },
+  "tuning": {
+    "best_cv_pr_auc": 0.510528574977977,
+    "best_params": {
+      "model__colsample_bytree": 0.7979277690223527,
+      "model__gamma": 0.41605441694224865,
+      "model__learning_rate": 0.09560523352119356,
+      "model__max_depth": 8,
+      "model__min_child_weight": 5,
+      "model__n_estimators": 370,
+      "model__reg_lambda": 4.290281485677493,
+      "model__subsample": 0.8324385333424413
+    },
+    "tuning_rows": 70000,
+    "iterations": 8
+  },
+  "feature_engineering": [
+    "income per experience",
+    "job stability ratio",
+    "house stability ratio",
+    "age started work",
+    "income band"
+  ],
+  "random_seed": 42
+}
