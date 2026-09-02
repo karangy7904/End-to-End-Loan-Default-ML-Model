@@ -7,6 +7,7 @@ Run locally:  python gradio_app.py       -> http://localhost:7860
 """
 import gradio as gr
 import pandas as pd
+import os
 
 from app.schemas import LoanApplication
 from app import model_service
@@ -96,4 +97,7 @@ with gr.Blocks(title="Loan Risk Predictor") as demo:
     )
 
 if __name__ == "__main__":
-    demo.launch(server_name="0.0.0.0", server_port=7860)
+    demo.launch(
+    server_name="0.0.0.0",
+    server_port=int(os.environ.get("PORT", 7860)),
+)
