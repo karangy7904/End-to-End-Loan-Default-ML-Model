@@ -58,13 +58,13 @@ The tuned XGBoost model materially improved on the untuned benchmark. On the unt
 
 | Metric | Score |
 |---|---:|
-| ROC-AUC | 0.8935 |
-| PR-AUC | 0.5426 |
-| Accuracy | 0.8855 |
-| Precision | 0.5240 |
-| Recall | 0.7503 |
-| F1 | 0.6170 |
-| F1-optimized threshold | 0.5780 |
+|  ROC-AUC  |  0.5103  |
+|  Average Precision (AP)  |  0.1279  |
+|  Accuracy  |  0.2492  |
+|  Precision  |  0.1255  |
+|  Recall  |  0.8565  |
+|  F1-score  |  0.2189  |
+|  F1-optimized threshold  |  0.1967  |
 
 Among untuned benchmark models, Random Forest led with validation PR-AUC 0.4470,
 followed by XGBoost at 0.4218 and SVC at 0.3775. Full CV and validation metrics are in
